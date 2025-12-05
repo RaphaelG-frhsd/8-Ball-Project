@@ -1,7 +1,6 @@
 function shakeMagic8Ball () {
   const question = prompt('Ask the Magic 8-Ball a question:')
   if (question === null) {
-    // If the user clicks Cancel
     document.getElementById('response-text').innerText =
       'Please ask a question!'
     document.getElementById('response-text').classList = 'lead text-warning'
@@ -10,7 +9,6 @@ function shakeMagic8Ball () {
   }
 
   if (!question.trim()) {
-    // If the user enters an empty string
     alert('Please enter a valid question!')
     return
   }
@@ -67,4 +65,5 @@ function shakeMagic8Ball () {
   responseText.innerText = answer
   responseText.classList = `display-4 ${color}`
   document.getElementById('response-image').src = image
+
 }
