@@ -10,15 +10,17 @@
 
   <div class="container">
     <h1>Magic 8-Ball</h1>
-    <p>Hover over the ball • Click & drag to shake!</p>
+    <p>Click or shake or whatever u want to start</p>
 
     <div id="ball-container">
-      <img id="eight-ball" src="https://i.imgur.com/5f7QbZm.png" alt="Magic 8-Ball">
+      <img id="eight-ball" src="istockphoto-940243546-612x612-removebg-preview (2).png" alt="Magic 8-Ball" onclick="shakeMagic8Ball()">
     </div>
 
-    <div id="answer">Ask me anything...</div>
+    <div id="answer">Ask me anything...
+      <p id="response-text" class="lead"></p>
+    </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="8ball.js"></script>
 </body>
 </html>
