@@ -1,6 +1,7 @@
 function shakeMagic8Ball () {
   const question = prompt('Ask the Magic 8-Ball a question:')
   if (question === null) {
+   
     document.getElementById('response-text').innerText =
       'Please ask a question!'
     document.getElementById('response-text').classList = 'lead text-warning'
@@ -9,6 +10,7 @@ function shakeMagic8Ball () {
   }
 
   if (!question.trim()) {
+   
     alert('Please enter a valid question!')
     return
   }
@@ -38,12 +40,12 @@ function shakeMagic8Ball () {
       color = 'text-secondary'
       break
     case 4:
-      answer = 'Don;t rlly feel like answering'
+      answer = 'Dont rlly feel like answering'
       image = 'cannot-predict-image.jpg'
       color = 'text-muted'
       break
     case 5:
-      answer = "NAHH give up while ur aead"
+      answer = "NAHH give up while ur ahead"
       image = 'dont-count-on-it-image.jpg'
       color = 'text-danger'
       break
