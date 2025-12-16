@@ -21,42 +21,42 @@ function shakeMagic8Ball () {
   switch (randomNumber) {
     case 0:
       answer = 'Yeahhh'
-      image = 'yes-image.jpg'
+      image = "twin.jpg"
       color = 'text-success'
       break
     case 1:
       answer = 'Nahh'
-      image = 'no-image.jpg'
+      image ='Sadhapmter.jpg'
       color = 'text-danger'
       break
     case 2:
       answer = 'I guess if u want'
-      image = 'maybe-image.jpg'
+      image = 'kitty.jpg'
       color = 'text-warning'
       break
     case 3:
       answer = 'go away bum'
-      image = 'later-image.jpg'
+      image = 'Drake.jpg'
       color = 'text-secondary'
       break
     case 4:
       answer = 'Dont rlly feel like answering'
-      image = 'cannot-predict-image.jpg'
+      image = 'smonge.jpg'
       color = 'text-muted'
       break
     case 5:
       answer = "NAHH give up while ur ahead"
-      image = 'dont-count-on-it-image.jpg'
+      image = 'Blue.jpg'
       color = 'text-danger'
       break
     case 6:
       answer = 'Yes, out of everything I have ever predicted this is the most certain I have ever been in my 1000 years of predictions'
-      image = 'most-likely-image.jpg'
+      image = 'Smile.jpg'
       color = 'text-success'
       break
     case 7:
       answer = 'You wish'
-      image = 'outlook-not-good-image.jpg'
+      image = 'Bunny.jpg'
       color = 'text-danger'
       break
     default:
